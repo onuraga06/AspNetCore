@@ -15,7 +15,7 @@ namespace UdemyAspNetCore.Filters
             var dictionary= context.ActionArguments.FirstOrDefault(I => I.Key == "customer");
 
             var customer = dictionary.Value as Customer;
-            if (customer.FirstName == "yavuz")
+            if (customer.FirstName == "onur")
             {
                 context.Result = new RedirectResult("/Home/Index");
             }

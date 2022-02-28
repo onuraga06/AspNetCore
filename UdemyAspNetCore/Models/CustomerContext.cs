@@ -9,8 +9,8 @@ namespace UdemyAspNetCore.Models
     {
         public static List<Customer> Customers = new()
         {
-            new Customer { Id=1, FirstName = "Yavuz", LastName = "Kahraman", Age = 27 },
-            new Customer { Id=2, FirstName = "Oğuz", LastName = "Kahraman", Age = 20 }
+            new Customer { Id=1, FirstName = "Onur", LastName = "Ağa", Age = 27 },
+            new Customer { Id=2, FirstName = "Faruk", LastName = "Toprak", Age = 20 }
         };
     }
 }

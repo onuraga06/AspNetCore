@@ -16,9 +16,9 @@ namespace UdemyAspNetCore.Middlewares
 
         public async Task Invoke(HttpContext context)
         {
-            // ysk.com.tr/yavuz
-            if (context.Request.Path.ToString() == "/yavuz")
-               await context.Response.WriteAsync("hosgeldin yavuz");
+
+            if (context.Request.Path.ToString() == "/onur")
+               await context.Response.WriteAsync("hg onur");
             else
                 await _requestDelegate.Invoke(context);
         }

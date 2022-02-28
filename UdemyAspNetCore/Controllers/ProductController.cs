@@ -10,7 +10,13 @@ namespace UdemyAspNetCore.Controllers
     {
 
        
-        public IActionResult Index(int id) { return View(); }
+        public IActionResult Index(int id)
+        { 
+            
+            return View();
+        
+        
+        }
         
             
         }

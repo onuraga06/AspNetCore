@@ -9,8 +9,8 @@ namespace UdemyAspNetCore.Models
     {
         public static List<News> List = new()
         {
-            new News { Title="Haber 1" },
-            new News { Title="Haber 2" }
+            new News { Title="Başlık 1" },
+            new News { Title="Başlık 2" }
         };
     }
 }
